@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tunisie Libertaire - Application Mobile</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #dc2626, #991b1b);
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+            max-width: 600px;
+            padding: 40px;
+            text-align: center;
+            background: rgba(255,255,255,0.1);
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+        }
+        h1 { font-size: 2.5em; margin-bottom: 20px; }
+        .subtitle { font-size: 1.2em; margin-bottom: 30px; opacity: 0.9; }
+        .download-btn {
+            display: inline-block;
+            background: white;
+            color: #dc2626;
+            padding: 15px 30px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1em;
+            margin: 20px 0;
+            transition: transform 0.3s;
+        }
+        .download-btn:hover { transform: scale(1.05); }
+        .features {
+            margin: 30px 0;
+            text-align: left;
+            display: inline-block;
+        }
+        .feature {
+            margin: 10px 0;
+            display: flex;
+            align-items: center;
+        }
+        .feature::before {
+            content: "✓";
+            color: #4ade80;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        .info {
+            background: rgba(255,255,255,0.1);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        .size { opacity: 0.8; font-size: 0.9em; }
+        .footer {
+            margin-top: 30px;
+            opacity: 0.8;
+        }
+        .footer a {
+            color: white;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📱 Tunisie Libertaire</h1>
+        <p class="subtitle">Application Mobile Officielle</p>
+        
+        <div class="features">
+            <div class="feature">WebView complète du blog</div>
+            <div class="feature">Favoris avec sauvegarde</div>
+            <div class="feature">Partage natif Android</div>
+            <div class="feature">Navigation avancée</div>
+            <div class="feature">Mode sombre/clair</div>
+            <div class="feature">Zoom, plein écran</div>
+            <div class="feature">Flux RSS intégré</div>
+        </div>
+
+        <a href="tunisie-libertaire.apk" class="download-btn">
+            📥 Télécharger l'APK
+        </a>
+        
+        <div class="info">
+            <div class="size">Taille : 46.5 MB</div>
+            <div>Compatible : Android 5.0+</div>
+        </div>
+
+        <div class="info">
+            <strong>Installation :</strong><br>
+            1. Téléchargez l'APK<br>
+            2. Activez "Sources inconnues"<br>
+            3. Installez l'application
+        </div>
+
+        <div class="footer">
+            <p>Développé avec ❤️ pour <a href="https://tunisielibertaire.wordpress.com">Tunisie Libertaire</a></p>
+            <p>Open Source - <a href="https://github.com">GitHub</a></p>
+        </div>
+    </div>
+</body>
+</html>
