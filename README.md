@@ -17,7 +17,7 @@ Application mobile officielle du blog **Tunisie Libertaire**, développée avec 
 
 ## 📥 Téléchargement
 
-[**Télécharger l'APK**](app-release.apk) (46.5 MB)
+[**Télécharger l'APK**](https://github.com/AnARCHIS12/tunsilibertaire-app/releases/download/1.00/TunisieLibertaire.apk) (46.5 MB)
 
 ## 🛠️ Installation
 
