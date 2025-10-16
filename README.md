@@ -1,4 +1,4 @@
-# Tunisie Libertaire - Application Mobile 🇹🇳
+# Tunisie Libertaire - Application Mobile
 
 Application mobile officielle du blog **Tunisie Libertaire**, développée avec Flutter.
 
