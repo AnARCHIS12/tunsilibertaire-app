@@ -1,0 +1,52 @@
+# Flutter/Dart
+blog_app/.dart_tool/
+blog_app/.packages
+blog_app/build/
+blog_app/.flutter-plugins
+blog_app/.flutter-plugins-dependencies
+blog_app/.pub-cache/
+blog_app/.pub/
+
+# Android
+blog_app/android/.gradle/
+blog_app/android/app/build/
+blog_app/android/gradle/
+blog_app/android/gradlew
+blog_app/android/gradlew.bat
+blog_app/android/local.properties
+blog_app/android/.gradle/
+blog_app/android/captures/
+blog_app/android/key.properties
+
+# iOS (si applicable)
+blog_app/ios/Flutter/flutter_export_environment.sh
+blog_app/ios/Runner.xcworkspace/
+blog_app/ios/Runner.xcodeproj/
+
+# IDE
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Logs
+*.log
+
+# APK files (optionnel - vous pouvez les garder pour les releases)
+*.apk
+*.aab
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
