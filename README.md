@@ -5,9 +5,6 @@ Application mobile officielle du blog **Tunisie Libertaire**, développée avec 
 ## 🌍 Support Multilingue
 
 L'application supporte **3 langues** avec changement instantané :
-- **🇫🇷 Français** (par défaut)
-- **🇸🇦 العربية** (Arabe standard)  
-- **🇹🇳 تونسي** (Dialecte tunisien authentique)
 
 ## 📱 Fonctionnalités Principales
 
